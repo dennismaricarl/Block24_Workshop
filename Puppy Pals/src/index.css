@@ -12,29 +12,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
+p {
+  font: 30px Courier;
+  color: rgb(4, 61, 141);
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
+p:hover {
+  color: #0798e6;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+h2 {
+  font-family: Gill Sans; 
+  font-size: 2.2em;
+  line-height: 1.5;
+};
 
 button {
   border-radius: 8px;
@@ -66,4 +68,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.App {
+  padding: 100px;
+  border: 4px solid black;
+}
+
+.App:hover {
+  background-color: rgb(224, 242, 249);
 }
