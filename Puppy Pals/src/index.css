@@ -73,8 +73,11 @@ button:focus-visible {
 .App {
   padding: 100px;
   border: 4px solid black;
+  border-radius: 20px;
 }
 
-.App:hover {
-  background-color: rgb(224, 242, 249);
+li {
+  list-style: none;
+  font: 20px Gill Sans; 
+  line-height: 1.6;
 }
