@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import {puppyList} from './data.js'
-import './App.css'
 import './index.css'
 
 
@@ -11,7 +10,6 @@ function App() {
   console.log(featuredPup)
 
   console.log(puppyList);
-
   return (
       <div className="App">
        {
